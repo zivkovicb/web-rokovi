@@ -2,22 +2,30 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className='homepage-container'>
-      <div className='home-navbar'>
-        <div>Logo</div>
-        <div className='title'>WEB _ ROKOVI</div>
-        <div className='nav-buttons'>
-          <div className='button'>Log In/ Sign up</div>
-          <div className='button'>Search</div>
+    <div className='page-container'>
+      <div className='header'>
+        <div className='logo-container'>
+          Logo
+        </div>
+        <div className='title'>
+          Rokovi
+        </div>
+        <div className='user'>
+          User
         </div>
       </div>
       <div className='body'>
-        <div>Other files preview</div>
-        <div>File Preview</div>
+        <div className='recent'>
+          recent
+        </div>
+        <div className='view'>
+          view
+        </div>
+        <div className='editor'>
+          editor
+        </div>
       </div>
-      home container
     </div>
-    
   );
 }
 
